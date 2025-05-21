@@ -1,7 +1,7 @@
 package Builtinfunc;
 import java.util.Scanner;
 
-public class pr7 {
+public class GcdLcmFinder {
     public static int getInput(String label) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter " + label + " number: ");

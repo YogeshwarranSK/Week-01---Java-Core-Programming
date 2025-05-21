@@ -3,7 +3,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-public class pr13 {
+public class DateComparison {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyy-MM-dd");

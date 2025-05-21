@@ -1,7 +1,7 @@
 package Builtinfunc;
 import java.util.Scanner;
 
-public class pr2 {
+public class MaxOfThreeNumber {
     public static int getInput(String prompt, Scanner input) {
         System.out.print(prompt);
         return input.nextInt();

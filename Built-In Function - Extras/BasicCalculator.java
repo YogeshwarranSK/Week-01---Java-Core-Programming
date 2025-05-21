@@ -1,7 +1,7 @@
 package Builtinfunc;
 import java.util.Scanner;
 
-public class pr9 {
+public class BasicCalculator {
     public static double addition(double a, double b) {
         return a + b;
     }

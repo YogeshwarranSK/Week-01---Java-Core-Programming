@@ -1,7 +1,7 @@
 package Builtinfunc;
 import java.util.Scanner;
 
-public class pr5{
+public class PalindromeChecker {
     public static String getInput() {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a string: ");

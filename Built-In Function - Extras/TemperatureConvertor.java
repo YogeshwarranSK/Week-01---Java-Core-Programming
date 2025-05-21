@@ -1,7 +1,7 @@
 package Builtinfunc;
 import java.util.Scanner;
 
-public class pr8{
+public class TemperatureConvertor {
     public static double cToF(double celsius) {
         return (celsius * 9 / 5) + 32;
     }

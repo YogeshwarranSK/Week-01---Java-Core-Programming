@@ -2,7 +2,7 @@ package Builtinfunc;
 import java.time.ZonedDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
-public class pr10{
+public class TimeZoneFormatter {
     public static void main(String[] args) {
         DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss z");
         ZonedDateTime gmtTime = ZonedDateTime.now(ZoneId.of("GMT"));

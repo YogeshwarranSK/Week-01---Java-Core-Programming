@@ -1,7 +1,7 @@
 package Builtinfunc;
 import java.util.Scanner;
 
-public class pr6 {
+public class FactorialChecker {
     public static int getInput() {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number: ");

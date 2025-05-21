@@ -1,7 +1,7 @@
 package Builtinfunc;
 import java.util.Scanner;
 
-public class pr3 {
+public class PrimeChecker {
     public static boolean isPrime(int num) {
         if (num <= 1) return false;
         if (num == 2) return true;

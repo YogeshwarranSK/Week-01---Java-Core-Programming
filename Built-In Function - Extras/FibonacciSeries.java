@@ -1,7 +1,7 @@
 package Builtinfunc;
 import java.util.Scanner;
 
-public class pr4 {
+public class FibonacciSeries {
     public static void genFibonacci(int terms) {
         int a = 0, b = 1;
         for (int i = 0; i < terms; i++) {
