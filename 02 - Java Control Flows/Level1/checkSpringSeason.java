@@ -1,3 +1,5 @@
+package Day2.Level1;
+
 import java.util.Scanner;
 public class checkSpringSeason {
     public static void main(String[] args) {
