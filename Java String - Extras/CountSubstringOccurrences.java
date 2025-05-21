@@ -1,6 +1,6 @@
 package StringPractice;
 import java.util.Scanner;
-public class pr6 {
+public class CountSubstringOccurrences {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter string: ");

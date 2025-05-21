@@ -2,7 +2,7 @@ package Builtinfunc;
 import java.util.Random;
 import java.util.Scanner;
 
-public class NumberGuess {
+public class pr1 {
     static Random rand = new Random();
     static Scanner input = new Scanner(System.in);
     public static int genGuess(int low, int high) {

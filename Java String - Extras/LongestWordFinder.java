@@ -1,6 +1,6 @@
 package StringPractice;
 import java.util.Scanner;
-public class pr5 {
+public class LongestWordFinder {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a sentence: ");

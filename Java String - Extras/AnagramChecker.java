@@ -1,7 +1,7 @@
 package StringPractice;
 import java.util.Scanner;
 import java.util.Arrays;
-public class pr11 {
+public class AnagramChecker {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter first string: ");

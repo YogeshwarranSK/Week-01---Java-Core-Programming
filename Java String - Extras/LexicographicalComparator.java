@@ -1,6 +1,6 @@
 package StringPractice;
 import java.util.Scanner;
-public class pr8 {
+public class LexicographicalComparator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter first string: ");

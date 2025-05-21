@@ -2,7 +2,7 @@ package StringPractice;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.Scanner;
-public class pr4 {
+public class RemoveDuplicateCharacters {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a string: ");

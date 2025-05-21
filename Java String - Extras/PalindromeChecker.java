@@ -1,6 +1,6 @@
 package StringPractice;
 import java.util.Scanner;
-public class pr3 {
+public class PalindromeChecker {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a string: ");
