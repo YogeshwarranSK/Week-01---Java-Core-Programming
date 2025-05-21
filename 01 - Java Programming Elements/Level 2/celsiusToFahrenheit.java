@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class prg4{
+public class celsiusToFahrenheit {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter temp in celsius:");

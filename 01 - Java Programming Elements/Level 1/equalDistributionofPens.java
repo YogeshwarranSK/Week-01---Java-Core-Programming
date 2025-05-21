@@ -1,4 +1,4 @@
-public class Prg5 {
+public class equalDistributionofPens {
     public static void main(String[] args) {
         int pens = 14;
         int students = 3;

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class prg12{
+public class calculateWeight {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter weight in Pounds:");

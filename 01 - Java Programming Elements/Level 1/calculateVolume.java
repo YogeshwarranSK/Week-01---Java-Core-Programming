@@ -1,4 +1,4 @@
-public class Prg7 {
+public class calculateVolume {
     public static void main(String[] args){
         int r_km = 6378;
         double volume_km = (double)4/3 * 3.14 * r_km * r_km;

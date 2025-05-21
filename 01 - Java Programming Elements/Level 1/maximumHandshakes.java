@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Prg16{
+public class maximumHandshakes {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of students:");

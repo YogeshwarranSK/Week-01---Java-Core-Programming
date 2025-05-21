@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class prg2 {
+public class arithematicCalculation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter num1:");

@@ -1,4 +1,4 @@
-public class Prg2 {
+public class Calculate_Avg {
     public static void main(String[] args) {
         int maths = 94;
         int chemistry = 95;

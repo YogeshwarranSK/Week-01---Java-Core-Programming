@@ -1,4 +1,4 @@
-public class Prg4 {
+public class calculateProfit {
     public static void main(String[] args) {
         int cp = 129;
         int sp = 191;

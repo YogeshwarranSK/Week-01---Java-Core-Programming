@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class prg11 {
+public class calculateSI {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter principle amount:");

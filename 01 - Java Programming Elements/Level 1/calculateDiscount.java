@@ -1,4 +1,4 @@
-public class Prg6 {
+public class calculateDiscount {
     public static void main(String[] args){
         int fee = 125000;
         int discount_percent = 10;

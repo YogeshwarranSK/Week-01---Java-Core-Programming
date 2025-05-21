@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class prg8 {
+public class calculateTotalDistTravelled {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter name:");
