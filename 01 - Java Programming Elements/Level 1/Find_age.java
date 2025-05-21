@@ -1,4 +1,4 @@
-public class Prg1 {
+public class Find_age {
     public static void main(String[] args) {
         int birth_year = 2000;
         int current_year = 2024;
