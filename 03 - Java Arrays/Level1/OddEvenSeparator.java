@@ -1,6 +1,6 @@
 package Day3.Level1;
 import java.util.Scanner;
-public class pr7 {
+public class OddEvenSeparator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a natural number: ");

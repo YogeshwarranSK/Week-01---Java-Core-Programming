@@ -1,6 +1,6 @@
 package Day3.Level1;
 import java.util.Scanner;
-public class pr3 {
+public class MultiplicationTable {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int[] table = new int[11];

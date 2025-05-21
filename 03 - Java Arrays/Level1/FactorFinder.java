@@ -1,7 +1,7 @@
 package Day3.Level1;
 import java.util.Scanner;
 
-public class pr8 {
+public class FactorFinder {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number to find its factors: ");

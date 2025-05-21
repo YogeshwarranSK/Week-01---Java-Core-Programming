@@ -1,6 +1,6 @@
 package Day3.Level2;
 import java.util.Scanner;
-public class pr6 {
+public class BMICalculator {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of persons: ");

@@ -1,7 +1,7 @@
 package Day3.Level1;
 import java.util.Scanner;
 
-public class pr9 {
+public class TwoDToOneDArrayCopy {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of rows: ");

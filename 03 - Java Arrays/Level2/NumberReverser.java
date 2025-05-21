@@ -1,6 +1,6 @@
 package Day3.Level2;
 import java.util.Scanner;
-public class pr5 {
+public class NumberReverser {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

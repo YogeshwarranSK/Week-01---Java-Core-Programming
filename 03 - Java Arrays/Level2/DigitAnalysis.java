@@ -1,6 +1,6 @@
 package Day3.Level2;
 import java.util.Scanner;
-public class pr3 {
+public class DigitAnalysis {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int maxDigit = 10;

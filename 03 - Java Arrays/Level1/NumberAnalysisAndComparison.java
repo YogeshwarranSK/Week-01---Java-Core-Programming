@@ -1,6 +1,6 @@
 package Day3.Level1;
 import java.util.Scanner;
-public class pr2 {
+public class NumberAnalysisAndComparison {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] numbers = new int[5];

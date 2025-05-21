@@ -2,7 +2,7 @@ package Day3.Level2;
 
 import java.util.Scanner;
 
-public class pr1 {
+public class EmployeeBonusCalculator {
 
     public static void main(String[] args) {
         double[] oldSalary = new double[10];

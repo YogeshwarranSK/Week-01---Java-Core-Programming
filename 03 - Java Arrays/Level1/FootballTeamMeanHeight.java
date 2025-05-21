@@ -1,6 +1,6 @@
 package Day3.Level1;
 import java.util.Scanner;
-public class pr6 {
+public class FootballTeamMeanHeight {
     public static void main(String[] args) {
         double[] heights = new double[11];
         Scanner sc = new Scanner(System.in);

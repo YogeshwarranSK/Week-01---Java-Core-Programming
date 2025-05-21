@@ -1,6 +1,6 @@
 package Day3.Level2;
 import java.util.Scanner;
-public class pr2 {
+public class YoungestAndTallestFinder {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double[] age = new double[3];

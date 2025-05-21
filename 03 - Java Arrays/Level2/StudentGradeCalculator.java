@@ -1,6 +1,6 @@
 package Day3.Level2;
 import java.util.Scanner;
-public class pr8 {public static void main(String[] args){
+public class StudentGradeCalculator {public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     System.out.print("Number of Students: ");
     int numOfStudents = sc.nextInt();
