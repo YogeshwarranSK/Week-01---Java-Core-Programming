@@ -1,6 +1,6 @@
 package Day5.Level1;
 import java.util.Scanner;
-public class pr7 {
+public class NumberFormatDemo {
     public static void generateException(String text) {
         System.out.println("Attempting to parse integer from input...");
         int number = Integer.parseInt(text);

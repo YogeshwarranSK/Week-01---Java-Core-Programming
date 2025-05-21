@@ -1,7 +1,7 @@
 package Day5.Level2;
 import java.util.Scanner;
 
-public class pr1 {
+public class StringLengthFinder {
     public static int findStringLength(String text) {
         int count = 0;
         try {

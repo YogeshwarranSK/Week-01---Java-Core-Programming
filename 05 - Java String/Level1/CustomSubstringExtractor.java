@@ -1,6 +1,6 @@
 package Day5.Level1;
 import java.util.Scanner;
-public class pr2 {
+public class CustomSubstringExtractor {
     public static String createSubstringWithCharAt(String str, int start, int end) {
         StringBuilder substring = new StringBuilder();
         for (int i = start; i < end; i++) {

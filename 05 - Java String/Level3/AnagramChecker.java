@@ -1,6 +1,6 @@
 package Day5.Level3;
 import java.util.Scanner;
-public class pr8 {
+public class AnagramChecker {
     public static boolean areAnagrams(String text1, String text2) {
         if (text1.length() != text2.length()) {
             return false;

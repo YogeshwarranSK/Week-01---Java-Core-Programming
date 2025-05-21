@@ -1,6 +1,6 @@
 package Day5.Level2;
 import java.util.Scanner;
-public class pr7 {
+public class CustomStringTrimmer {
     public static int[] findTrimIndexes(String text) {
         int start = 0, end = text.length() - 1;
         while (start <= end && text.charAt(start) == ' ') {

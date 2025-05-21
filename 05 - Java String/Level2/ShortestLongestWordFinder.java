@@ -1,6 +1,6 @@
 package Day5.Level2;
 import java.util.Scanner;
-public class pr4 {
+public class ShortestLongestWordFinder {
     public static int findStringLength(String text) {
         int count = 0;
         try {

@@ -1,6 +1,6 @@
 package Day5.Level1;
 import java.util.Scanner;
-public class pr6 {
+public class IllegalArgumentDemo {
     public static void generateException(String text) {
         System.out.println("Attempting to create a substring with an invalid index range...");
         System.out.println(text.substring(5, 2));

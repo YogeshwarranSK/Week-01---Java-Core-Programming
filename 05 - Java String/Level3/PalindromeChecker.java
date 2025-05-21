@@ -1,6 +1,6 @@
 package Day5.Level3;
 import java.util.Scanner;
-public class pr7 {
+public class PalindromeChecker {
     public static boolean isPalindromeIterative(String text) {
         int start = 0, end = text.length() - 1;
         while (start < end) {

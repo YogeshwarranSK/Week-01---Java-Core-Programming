@@ -1,7 +1,7 @@
 package Day5.Level2;
 import java.util.Random;
 import java.util.Scanner;
-public class pr8 {
+public class VotingEligibilityChecker {
     public static int[] generateAges(int numStudents) {
         Random random = new Random();
         int[] ages = new int[numStudents];

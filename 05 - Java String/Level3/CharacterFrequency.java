@@ -1,6 +1,6 @@
 package Day5.Level3;
 import java.util.Scanner;
-public class pr5 {
+public class CharacterFrequency {
     public static char[] findUniqueCharacters(String text) {
         int length = text.length();
         char[] uniqueChars = new char[length];

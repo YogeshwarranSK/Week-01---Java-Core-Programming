@@ -1,6 +1,6 @@
 package Day5.Level1;
 import java.util.Scanner;
-public class pr5 {
+public class StringIndexOutOfBoundsDemo {
     public static void generateException(String text) {
         System.out.println("Attempting to access an out-of-bounds index...");
         System.out.println(text.charAt(text.length()));

@@ -1,7 +1,6 @@
 package Day5.Level2;
 import java.util.Scanner;
-import java.util.Arrays;
-public class pr2 {
+public class WordLengthAnalyzer {
     public static int findStringLength(String text) {
         int count = 0;
         try {
@@ -40,19 +39,27 @@ public class pr2 {
         }
         return subStr.toString();
     }
-    public static boolean compareArrays(String[] arr1, String[] arr2) {
-        return Arrays.equals(arr1, arr2);
+    public static String[][] getWordsWithLengths(String[] words) {
+        int numWords = words.length;
+        String[][] wordLengths = new String[numWords][2];
+        for (int i = 0; i < numWords; i++) {
+            wordLengths[i][0] = words[i];
+            wordLengths[i][1] =
+                    String.valueOf(findStringLength(words[i]));
+        }
+        return wordLengths;
     }
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a sentence: ");
-        String inputText = input.nextLine();
-        String[] customWords = customSplit(inputText);
-        String[] builtInWords = inputText.split(" ");
-        boolean areEqual = compareArrays(customWords, builtInWords);
-        System.out.println("\nCustom Split Method Output: " + Arrays.toString(customWords));
-        System.out.println("Built-in split() Method Output: " + Arrays.toString(builtInWords));
-        System.out.println("Are both methods producing the same result? " + areEqual);
-        input.close();
+        String inputText = scanner.nextLine();
+        String[] words = customSplit(inputText);
+        String[][] wordsWithLengths = getWordsWithLengths(words);
+        System.out.println("\nWord\t\tLength");
+        for (String[] row : wordsWithLengths) {
+            System.out.println(row[0] + "\t\t" +
+                    Integer.parseInt(row[1]));
+        }
+        scanner.close();
     }
 }

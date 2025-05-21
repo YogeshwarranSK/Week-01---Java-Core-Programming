@@ -1,6 +1,6 @@
 package Day5.Level3;
 import java.util.Scanner;
-public class pr2 {
+public class StringLengthCalculator {
     public static int findStringLength(String text) {
         int count = 0;
         try {

@@ -1,6 +1,6 @@
 package Day5.Level1;
 import java.util.Scanner;
-public class pr1 {
+public class StringCharComparer {
     public static boolean compareUsingCharAt(String str1, String str2) {
         if (str1.length() != str2.length()) {
             return false;

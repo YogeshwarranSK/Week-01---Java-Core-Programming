@@ -1,6 +1,6 @@
 package Day5.Level1;
 import java.util.Scanner;
-public class pr8 {
+public class ArrayIndexOutOfBoundsDemo {
     public static void generateException(String[] names, int index) {
         System.out.println("Attempting to access index: " + index);
         System.out.println("Name at index " + index + ": " +

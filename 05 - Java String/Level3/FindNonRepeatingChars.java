@@ -1,6 +1,6 @@
 package Day5.Level3;
 import java.util.Scanner;
-public class pr3 {
+public class FindNonRepeatingChars {
     public static char findFirstNonRepeatingChar(String text) {
         int[] charFrequency = new int[256];
         for (int i = 0; i < text.length(); i++) {

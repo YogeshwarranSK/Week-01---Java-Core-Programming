@@ -1,7 +1,6 @@
 package Day5.Level2;
-import java.util.Random;
 import java.util.Scanner;
-public class pr9 {
+public class RockPaperScissorsGame {
     public static String getComputerChoice() {
         String[] choices = {"Rock", "Paper", "Scissors"};
         int index = (int) (Math.random() * 3);

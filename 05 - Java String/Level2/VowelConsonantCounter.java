@@ -1,6 +1,6 @@
 package Day5.Level2;
 import java.util.Scanner;
-public class pr5 {
+public class VowelConsonantCounter {
     public static String checkCharacterType(char ch) {
         ch = (ch >= 'A' && ch <= 'Z') ? (char) (ch + 32) : ch;
         if (ch >= 'a' && ch <= 'z') {

@@ -1,6 +1,6 @@
 package Day5.Level3;
 import java.util.Scanner;
-public class pr4 {
+public class FrequencyIdentifier {
     public static String[][] findCharacterFrequency(String text) {
         int[] charFrequency = new int[256];
         for (int i = 0; i < text.length(); i++) {

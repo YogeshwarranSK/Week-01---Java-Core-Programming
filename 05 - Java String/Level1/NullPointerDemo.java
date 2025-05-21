@@ -1,5 +1,5 @@
 package Day5.Level1;
-public class pr4 {
+public class NullPointerDemo {
     public static void generateException() {
         String text = null;
         System.out.println(text.length());

@@ -1,7 +1,7 @@
 package Day5.Level3;
 import java.util.Random;
 import java.util.Scanner;
-public class pr10 {
+public class DeckOfCards {
     private static final String[] SUITS = {"Hearts", "Diamonds", "Clubs",
             "Spades"};
     private static final String[] RANKS = {"2", "3", "4", "5", "6", "7",

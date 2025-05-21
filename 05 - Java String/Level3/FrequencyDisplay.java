@@ -1,6 +1,6 @@
 package Day5.Level3;
 import java.util.Scanner;
-public class pr6 {
+public class FrequencyDisplay {
     public static String[] findCharacterFrequency(String text) {
         char[] charArray = text.toCharArray();
         int length = charArray.length;

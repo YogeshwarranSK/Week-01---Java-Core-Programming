@@ -1,7 +1,7 @@
 package Day5.Level2;
 import java.util.Random;
 import java.util.Scanner;
-public class pr10 {
+public class StudentScoreCardGenerator {
     public static int[][] generateMarks(int numStudents) {
         Random rand = new Random();
         int[][] marks = new int[numStudents][3];

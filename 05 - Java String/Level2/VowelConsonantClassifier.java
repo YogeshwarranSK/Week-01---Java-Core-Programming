@@ -1,6 +1,6 @@
 package Day5.Level2;
 import java.util.Scanner;
-public class pr6 {
+public class VowelConsonantClassifier {
     public static String classifyCharacter(char ch) {
         ch = (ch >= 'A' && ch <= 'Z') ? (char) (ch + 32) : ch;
         if (ch >= 'a' && ch <= 'z') {

@@ -1,6 +1,6 @@
 package Day5.Level3;
 import java.util.Scanner;
-public class pr1 {
+public class BMIStatus {
     public static String[][] computeBMI(double[][] data) {
         int numPersons = data.length;
         String[][] results = new String[numPersons][4];

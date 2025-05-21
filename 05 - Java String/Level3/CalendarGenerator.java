@@ -1,6 +1,6 @@
 package Day5.Level3;
 import java.util.Scanner;
-public class pr9 {
+public class CalendarGenerator {
     public static String getMonthName(int month) {
         String[] months = {"January", "February", "March", "April", "May",
                 "June",
